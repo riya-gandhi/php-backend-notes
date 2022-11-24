@@ -1,0 +1,38 @@
+array has key
+isset()
+explode strings
+foreach loop for key value pairs
+
+all the params {x=2&y=1} in the url goes in superglobal variable 
+array $_GET - similar with forms
+
+call byref/value
+
+require/include
+
+--------------------------$_POST is diff from $_GET as it
+does not send data in url 
+in $_POST: the url is retrieved and parameters are appended
+to the request in the HTTP connection
+
+a lot more data can be sent in $_POST hence preferred
+
+-----------------------
+when use get/post - get is only for search field
+
+--------------------
+html entities to prevent cross site scripting
+------------
+
+--------------------------
+------------SQL-----------
+
+LIKE, ORDER BY, SELECT, SET WHERE, LIMIT-first n rows, 
+COUNT - select count(*) from users where email='abc@gmail.com'
+
+INSERT INTO, DELETE FROM, UPDATE users SET name="charles" WHERE email="abc@gmail.com"
+
+BLOB/Filesystem: 
+
+
+
