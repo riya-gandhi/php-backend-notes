@@ -34,5 +34,47 @@ INSERT INTO, DELETE FROM, UPDATE users SET name="charles" WHERE email="abc@gmail
 
 BLOB/Filesystem: 
 
+---2-------------------
+--------HTTPS basics using curl-------
+
+additional parts of response:
+payload>status codes [3 digit]
+
+see CURL_SETOPT_ARRAY for request and response
+curl session start- session close
+
+no way to get payload info from file_get_contents
+
+----meta data to request
+
+headers: also called request fields
+ALL ABOVE PASSED TO CURL
+
+after headers there are methods
+REQUEST methods - PUT UPDATE
+
+aftr methods- request body
+
+
+
+
+
+----meta data to response
+curlopt_header=true to see headers of response
+headerfunction to get the metadata in array
+read doc for above when needed
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
